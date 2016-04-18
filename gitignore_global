@@ -1,0 +1,8 @@
+## Text editors 
+*.swp
+*~
+## Compiled
+*.o
+*.so
+*.e
+*.pyc

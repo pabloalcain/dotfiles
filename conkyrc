@@ -1,0 +1,96 @@
+# conky configuration
+##############################################
+# Settings
+##############################################
+background no
+use_xft yes
+xftfont Lato:size=15
+xftalpha 0
+update_interval 0.5
+update_interval_on_battery 1
+total_run_times 0
+own_window no
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+##############################################
+## cairo-compmgr
+own_window_argb_visual yes
+##############################################
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+maximum_width 270
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color ffffff
+default_shade_color 000000
+default_outline_color 828282
+alignment top_right
+gap_x 12
+gap_y 20
+no_buffers yes
+uppercase no
+cpu_avg_samples 4
+override_utf8_locale no
+
+##############################################
+# colors
+
+color1 FFFFFF
+color2 FFA500
+
+##############################################
+#  Output
+##############################################
+
+TEXT
+${font lato:bold:size=10}SYSTEM ${hr 2}
+${font lato:bold:size=10}HOST:$alignr$nodename
+${font lato:bold:size=10}UPTIME:$alignr$uptime_short
+#${font lato:bold:size=10}BATTERY:${alignr}${battery_percent}%
+#${battery_bar}
+
+${font lato:bold:size=10}PROCESSORS ${hr 2}
+${font lato:normal:size=10}${cpugraph cpu0 20,270 FFFF00 FF0000}
+TOTAL: ${cpu cpu0}% ${cpubar cpu0}
+${cpugraph cpu1 20,130 FFFF00 FF0000} $alignr ${cpugraph cpu2 20,130 FFFF00 FF0000}
+CPU0: ${cpu cpu1}% ${cpubar cpu1 7,70} $alignr CPU1: ${cpu cpu2}% ${cpubar cpu2 7,70}
+${cpugraph cpu3 20,130 FFFF00 FF0000} $alignr ${cpugraph cpu4 20,130 FFFF00 FF0000}
+CPU0: ${cpu cpu3}% ${cpubar cpu3 7,70} $alignr CPU1: ${cpu cpu4}% ${cpubar cpu4 7,70}
+
+${font lato:bold:size=10}MEMORY ${hr 2}
+${font lato:normal:size=10}RAM $alignc $mem / $memmax $alignr $memperc%
+$membar
+SWAP $alignc ${swap} / ${swapmax} $alignr ${swapperc}%
+${swapbar}
+
+
+${font lato:bold:size=10}STORAGE ${hr 2}
+${font lato:normal:size=10}/ $alignc ${fs_used /} / ${fs_size /} $alignr
+${fs_bar /}
+${font lato:normal:size=10}/home $alignc ${fs_used /home} / ${fs_size /home} $alignr
+${fs_bar /home}
+
+
+${font lato:bold:size=10}TOP PROCESSES ${hr 2}
+${font lato:bold:size=10}NAME${alignc}   PID${alignr}${alignr}% MEM
+${font lato:normal:size=9}${top_mem name 1}${alignc}${top_mem pid 1}${alignr}${top mem 1}%
+${top_mem name 2}${alignc}${top_mem pid 2}${alignr}${top mem 2}%
+${top_mem name 3}${alignc}${top_mem pid 3}${alignr}${top mem 3}%
+${top_mem name 4}${alignc}${top_mem pid 4}${alignr}${top mem 4}%
+#${top_mem name 5}${alignc}${top_mem pid 5}${alignr}${top mem 5}%
+#${top_mem name 6}${alignc}${top_mem pid 6}${alignr}${top mem 6}%
+#${top_mem name 7}${alignc}${top_mem pid 7}${alignr}${top mem 7}%
+
+
+${font lato:bold:size=10}NETWORK${font lato:normal:size=10} (${addr eth0}) ${hr 2}
+#Signal: $alignr ${wireless_link_qual_perc wlo1}%
+${downspeedgraph eth0 20,270 00FF00 0000FF -l}
+Download: ${downspeed eth0} $alignr Total: ${totaldown eth0}
+${upspeedgraph eth0 20,270 5F00FF FF0044 -l}
+Upload: ${upspeed eth0} $alignr Total: ${totalup eth0}
+
+${font lato:bold:size=10}TIME ${hr 2}
+${font lato:normal:size=10}CDT${alignr}${execi 5 date +%R}
+${font lato:normal:size=10}DATE${alignr}${execi 30 date +"%a %b %d (%D)"}

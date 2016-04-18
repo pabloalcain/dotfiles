@@ -1,0 +1,10 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- link:
+    ~/.fluxbox: fluxbox
+    ~/.conkyrc: conkyrc
+    ~/.gitignore_global: gitignore_global
+    ~/.gitconfig: gitconfig

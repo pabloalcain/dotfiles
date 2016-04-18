@@ -1,0 +1,2 @@
+- Automount pendrives
+- GUI File Browser (thunar?)

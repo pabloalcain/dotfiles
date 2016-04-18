@@ -1,0 +1,344 @@
+[begin] (FluxBox)
+	[submenu] (Development)
+		[exec] (GDB) {xterm -e gdb}
+		[exec] (GNU Emacs 24) {emacs24}
+		[exec] (ipython) {xterm -e ipython}
+		[exec] (Python [v2.7]) {xterm -e python2.7}
+		[exec] (Python [v3.4]) {xterm -e python3.4}
+		[exec] (Reportbug) {xterm -e reportbug --exit-prompt}
+		[exec] (Tclsh8.6) {xterm -e tclsh8.6}
+		[exec] (TkWish8.6) {x-terminal-emulator -e /usr/bin/wish8.6}
+	[end]
+	[submenu] (Editors)
+		[exec] (Emacs 24 [text]) {xterm -e emacs24 -nw}
+		[exec] (gedit) {gedit}
+		[exec] (Nano) {xterm -e nano}
+		[exec] (Pluma) {pluma}
+		[exec] (Vim) {xterm -e vim}
+		[exec] (Xedit) {xedit}
+	[end]
+	[submenu] (Games)
+		[submenu] (Amusement)
+			[exec] (Oclock) {oclock}
+			[exec] (Xclock [analog]) {xclock -analog}
+			[exec] (Xclock [digital]) {xclock -digital -update 1}
+			[exec] (Xeyes) {xeyes}
+			[exec] (Xlogo) {xlogo}
+		[end]
+		[submenu] (Arcade)
+			[exec] (Nibbles) {gnome-nibbles}
+			[exec] (Robots) {gnome-robots}
+		[end]
+		[submenu] (Board)
+			[exec] (Chess) {gnome-chess}
+			[exec] (Chess Net) {xterm -e xboard -ics -icshost chess.net}
+			[exec] (Default) {xterm -e xboard -ics}
+			[exec] (Free I.C.S.) {xterm -e xboard -ics -icshost freechess.org}
+			[exec] (Iagno) {iagno}
+			[exec] (Internet Chess Club) {xterm -e xboard -ics -icshost chessclub.com}
+			[exec] (Mahjongg) {gnome-mahjongg}
+			[exec] (Xboard) {xboard}
+			[exec] (XBoard) {xboard -xncp}
+			[exec] (XBoard [passive chessboard]) {xboard -ncp}
+		[end]
+		[submenu] (Card)
+			[exec] (AisleRiot Solitaire) {sol}
+			[exec] (Tali) {tali}
+		[end]
+		[submenu] (Puzzle)
+			[exec] (Five or More) {five-or-more}
+			[exec] (Four-in-a-row) {four-in-a-row}
+			[exec] (Hitori) {hitori}
+			[exec] (Klotski) {gnome-klotski}
+			[exec] (Lights Off) {lightsoff}
+			[exec] (Mines) {gnome-mines}
+			[exec] (Quadrapassel) {quadrapassel}
+			[exec] (Sudoku) {gnome-sudoku}
+			[exec] (Swell Foop) {swell-foop}
+			[exec] (Tetravex) {gnome-tetravex}
+		[end]
+	[end]
+	[submenu] (Graphics)
+		[exec] (dotty) {dotty}
+		[exec] (Eye of MATE Image Viewer) {eom}
+		[exec] (GNU Image Manipulation Program) {gimp-2.8}
+		[exec] (Image Viewer) {eog}
+		[exec] (ImageMagick) {display-im6 logo:}
+		[exec] (Inkscape) {inkscape}
+		[exec] (lefty) {lefty}
+		[exec] (LibreOffice Draw) {libreoffice --draw}
+		[exec] (Shotwell) {shotwell}
+		[exec] (Simple Scan) {simple-scan}
+		[exec] (The GIMP) {gimp}
+		[exec] (Xditview) {xditview}
+	[end]
+	[submenu] (Multimedia)
+		[exec] (Audio Mixer) {xfce4-mixer}
+		[exec] (Brasero) {brasero}
+		[exec] (Cheese) {cheese}
+		[exec] (Music) {gnome-music}
+		[exec] (Rhythmbox) {rhythmbox}
+		[exec] (Sound) {mate-volume-control}
+		[exec] (Sound Juicer) {sound-juicer}
+		[exec] (Sound Recorder) {gnome-sound-recorder}
+		[exec] (Videos) {totem}
+		[exec] (VLC media player) {vlc}
+		[exec] (VLC media player) {qvlc}
+	[end]
+	[submenu] (Network)
+		[exec] (Empathy) {empathy}
+		[exec] (Google Chrome [unstable]) {google-chrome-unstable}
+		[exec] (Icedove) {icedove}
+		[exec] (Iceweasel) {iceweasel}
+		[exec] (Mail Reader) {exo-open --launch MailReader}
+		[exec] (Pidgin Internet Messenger) {pidgin}
+		[exec] (Polari) {polari}
+		[exec] (Remote Desktop Viewer) {vinagre}
+		[exec] (Transmission) {transmission-gtk}
+		[exec] (w3m) {xterm -e w3m /usr/share/doc/w3m/MANUAL.html}
+		[exec] (Web Browser) {exo-open --launch WebBrowser}
+	[end]
+	[submenu] (Office)
+		[exec] (Atril Document Viewer) {atril}
+		[exec] (Dictionary) {gnome-dictionary}
+		[exec] (Dictionary) {mate-dictionary}
+		[exec] (Document Viewer) {evince}
+		[exec] (Evolution) {evolution}
+		[exec] (LibreOffice Calc) {libreoffice --calc}
+		[exec] (LibreOffice Impress) {libreoffice}
+		[exec] (LibreOffice Impress) {libreoffice --impress}
+		[exec] (LibreOffice Math) {libreoffice --math}
+		[exec] (LibreOffice Writer) {libreoffice --writer}
+		[exec] (Mutt) {xterm -e mutt}
+		[exec] (Orage Calendar) {orage}
+		[exec] (Orage Globaltime) {globaltime}
+		[exec] (prerex) {xterm -e prerex}
+		[exec] (vprerex) {vprerex}
+		[exec] (Xbiff) {xbiff}
+		[exec] (XDvi) {xdvi}
+	[end]
+	[submenu] (Other)
+		[exec] (Abstractile) {/usr/lib/xscreensaver/abstractile -root}
+		[exec] (Account details) {cinnamon-settings user}
+		[exec] (Applets) {cinnamon-settings applets}
+		[exec] (Backgrounds) {cinnamon-settings backgrounds}
+		[exec] (CWaves) {/usr/lib/xscreensaver/cwaves -root}
+		[exec] (Date & Time) {cinnamon-settings calendar}
+		[exec] (Deco) {/usr/lib/xscreensaver/deco -root}
+		[exec] (Desklets) {cinnamon-settings desklets}
+		[exec] (Desktop) {cinnamon-settings desktop}
+		[exec] (Distort) {/usr/lib/xscreensaver/distort -root}
+		[exec] (Effects) {cinnamon-settings effects}
+		[exec] (Extensions) {cinnamon-settings extensions}
+		[exec] (Fiberlamp) {/usr/lib/xscreensaver/fiberlamp -root}
+		[exec] (Floating GNOME) {/usr/lib/mate-screensaver/floaters /usr/share/pixmaps/gnome-logo-white.svg}
+		[exec] (Floating MATE) {/usr/lib/mate-screensaver/floaters /usr/share/pixmaps/mate-logo-white.svg}
+		[exec] (Fonts) {cinnamon-settings fonts}
+		[exec] (FuzzyFlakes) {/usr/lib/xscreensaver/fuzzyflakes -root}
+		[exec] (Galaxy) {/usr/lib/xscreensaver/galaxy -root}
+		[exec] (Galculator) {galculator}
+		[exec] (GDebi Package Installer) {gdebi-gtk}
+		[exec] (General) {cinnamon-settings general}
+		[exec] (Hexadrop) {/usr/lib/xscreensaver/hexadrop -root}
+		[exec] (Hot Corners) {cinnamon-settings hotcorner}
+		[exec] (ImageMagick [display Q16]) {display}
+		[exec] (ImageMagick [display Q16]) {display-im6}
+		[exec] (Keyboard) {cinnamon-settings keyboard}
+		[exec] (m6502) {/usr/lib/xscreensaver/m6502 -root}
+		[exec] (MetaBalls) {/usr/lib/xscreensaver/metaballs -root}
+		[exec] (Mouse and Touchpad) {cinnamon-settings mouse}
+		[exec] (OpenJDK Java 7 Policy Tool) {policytool}
+		[exec] (Panel) {cinnamon-settings panel}
+		[exec] (Penrose) {/usr/lib/xscreensaver/penrose -root}
+		[exec] (Pictures folder) {/usr/lib/mate-screensaver/slideshow}
+		[exec] (Pop art squares) {/usr/lib/mate-screensaver/popsquares}
+		[exec] (Power Management) {cinnamon-settings power}
+		[exec] (Preferred Applications) {cinnamon-settings default}
+		[exec] (Reportbug) {reportbug --exit-prompt --ui gtk2}
+		[exec] (Ripples) {/usr/lib/xscreensaver/ripples -root}
+		[exec] (Screen Locker) {cinnamon-settings screensaver}
+		[exec] (ShadeBobs) {/usr/lib/xscreensaver/shadebobs -root}
+		[exec] (SlideScreen) {/usr/lib/xscreensaver/slidescreen -root}
+		[exec] (Swirl) {/usr/lib/xscreensaver/swirl -root}
+		[exec] (System Info) {cinnamon-settings info}
+		[exec] (System Settings) {cinnamon-settings}
+		[exec] (Telnet) {xterm -e telnet}
+		[exec] (Tessellimage) {/usr/lib/xscreensaver/tessellimage -root}
+		[exec] (Themes) {cinnamon-settings themes}
+		[exec] (Window Tiling and Edge Flip) {cinnamon-settings tiling}
+		[exec] (Windows) {cinnamon-settings windows}
+		[exec] (Workspaces) {cinnamon-settings workspaces}
+		[exec] (XChat IRC) {xchat}
+		[exec] (XLyap) {/usr/lib/xscreensaver/xlyap -root}
+	[end]
+	[submenu] (Science)
+		[exec] (EasyMn) {EasyMn}
+		[exec] (Engauge-digitizer) {engauge}
+	[end]
+	[submenu] (Shells)
+		[exec] (Bash) {xterm -e bash --login}
+		[exec] (Dash) {xterm -e dash -i}
+		[exec] (Files) {nautilus}
+		[exec] (MATE Terminal) {mate-terminal}
+		[exec] (Midnight Commander) {xterm -e mc}
+		[exec] (Root Terminal) {gksu /usr/bin/x-terminal-emulator}
+		[exec] (Sh) {xterm -e sh --login}
+		[exec] (Terminal) {gnome-terminal}
+		[exec] (Thunar File Manager) {thunar}
+		[exec] (UXTerm) {uxterm}
+		[exec] (XTerm) {xterm}
+	[end]
+	[submenu] (System)
+		[submenu] (Settings)
+			[submenu] (GNOME)
+				[exec] (Adobe Flash Player) {flash-player-properties}
+				[exec] (Graphics Tablet) {cinnamon-settings wacom}
+				[exec] (Main Menu) {alacarte}
+				[exec] (Network Connections) {nm-connection-editor}
+				[exec] (Packages) {gpk-application}
+				[exec] (Settings) {gnome-control-center --overview}
+				[exec] (Startup Applications) {cinnamon-session-properties}
+				[exec] (Tweak Tool) {gnome-tweak-tool}
+			[end]
+			[submenu] (Xfce)
+				[exec] (Orage preferences) {orage -p}
+				[exec] (Screensaver) {xscreensaver-demo}
+				[exec] (Settings Manager) {xfce4-settings-manager}
+			[end]
+			[exec] (About Me) {mate-about-me}
+			[exec] (Accessibility) {xfce4-accessibility-settings}
+			[exec] (Appearance) {xfce4-appearance-settings}
+			[exec] (Appearance) {mate-appearance-properties}
+			[exec] (Assistive Technologies) {mate-at-properties}
+			[exec] (Color) {cinnamon-settings color}
+			[exec] (Control Center) {mate-control-center}
+			[exec] (Desktop) {xfdesktop-settings}
+			[exec] (Disks) {gnome-disks}
+			[exec] (Display) {xfce4-display-settings}
+			[exec] (Displays) {cinnamon-settings display}
+			[exec] (File Management) {caja-file-management-properties}
+			[exec] (File Manager) {thunar-settings}
+			[exec] (Keyboard) {xfce4-keyboard-settings}
+			[exec] (Keyboard) {mate-keyboard-properties}
+			[exec] (Keyboard Shortcuts) {mate-keybinding-properties}
+			[exec] (MIME Type Editor) {xfce4-mime-settings}
+			[exec] (Monitors) {mate-display-properties}
+			[exec] (Mouse) {mate-mouse-properties}
+			[exec] (Mouse and Touchpad) {xfce4-mouse-settings}
+			[exec] (Network) {cinnamon-settings network}
+			[exec] (Network Proxy) {mate-network-properties}
+			[exec] (Notifications) {xfce4-notifyd-config}
+			[exec] (NVIDIA X Server Settings) {nvidia-settings}
+			[exec] (Panel) {xfce4-panel --preferences}
+			[exec] (Passwords and Keys) {seahorse}
+			[exec] (Pop-Up Notifications) {mate-notification-properties}
+			[exec] (Power Management) {mate-power-preferences}
+			[exec] (Preferred Applications) {mate-default-applications-properties}
+			[exec] (Preferred Applications) {exo-preferred-applications}
+			[exec] (Print Settings) {system-config-printer}
+			[exec] (Removable Drives and Media) {thunar-volman-settings}
+			[exec] (Screensaver) {mate-screensaver-preferences}
+			[exec] (Search and Indexing) {tracker-preferences}
+			[exec] (Session and Startup) {xfce4-session-settings}
+			[exec] (Settings Editor) {xfce4-settings-editor}
+			[exec] (Sound) {cinnamon-settings sound}
+			[exec] (Startup Applications) {mate-session-properties}
+			[exec] (Synaptic Package Manager) {synaptic-pkexec}
+			[exec] (Universal Access) {cinnamon-settings universal-access}
+			[exec] (Users and Groups) {cinnamon-settings-users}
+			[exec] (Window Manager) {xfwm4-settings}
+			[exec] (Window Manager Tweaks) {xfwm4-tweaks-settings}
+			[exec] (Windows) {mate-window-properties}
+			[exec] (Workspaces) {xfwm4-workspace-settings}
+			[exec] (Xfontsel) {xfontsel}
+			[exec] (Xvidtune) {xvidtune}
+		[end]
+		[exec] (Aptitude Package Manager [text]) {xterm -e aptitude-curses}
+		[exec] (Bulk Rename) {/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename}
+		[exec] (Caja) {caja --no-desktop}
+		[exec] (Cinnamon Control Center) {cinnamon-control-center}
+		[exec] (dconf Editor) {dconf-editor}
+		[exec] (Debian Task selector) {xterm -e su-to-root -c tasksel}
+		[exec] (Disk Usage Analyzer) {mate-disk-usage-analyzer}
+		[exec] (Disk Usage Analyzer) {baobab}
+		[exec] (Editres) {editres}
+		[exec] (Gnome Control Center) {gnome-control-center}
+		[exec] (GNOME System Monitor) {gnome-system-monitor}
+		[exec] (Htop) {xterm -e htop}
+		[exec] (Log File Viewer) {mate-system-log}
+		[exec] (Log Out) {xfce4-session-logout}
+		[exec] (Logs) {gnome-logs}
+		[exec] (MATE System Monitor) {mate-system-monitor}
+		[exec] (Network Tools) {gnome-nettool}
+		[exec] (Package Updater) {gpk-update-viewer}
+		[exec] (Power Statistics) {mate-power-statistics}
+		[exec] (Power Statistics) {gnome-power-statistics}
+		[exec] (Pstree) {xterm -e pstree.x11}
+		[exec] (Synaptic Package Manager) {x-terminal-emulator -e synaptic-pkexec}
+		[exec] (System Log) {gnome-system-log-pkexec}
+		[exec] (TeXconfig) {xterm -e texconfig}
+		[exec] (Top) {xterm -e top}
+		[exec] (Xclipboard) {xclipboard}
+		[exec] (Xconsole) {xconsole -file /dev/xconsole}
+		[exec] (Xev) {x-terminal-emulator -e xev}
+		[exec] (Xkill) {xkill}
+		[exec] (Xload) {xload}
+		[exec] (Xrefresh) {xrefresh}
+	[end]
+	[submenu] (Utilities)
+		[exec] (About Xfce) {xfce4-about}
+		[exec] (Activate ScreenSaver [Next]) {xscreensaver-command -next}
+		[exec] (Activate ScreenSaver [Previous]) {xscreensaver-command -prev}
+		[exec] (Activate ScreenSaver [Random]) {xscreensaver-command -activate}
+		[exec] (Application Finder) {xfce4-appfinder}
+		[exec] (Archive Manager) {file-roller}
+		[exec] (Bc) {xterm -e bc}
+		[exec] (Calculator) {gnome-calculator}
+		[exec] (Character Map) {gucharmap}
+		[exec] (Clocks) {gnome-clocks}
+		[exec] (Contacts) {gnome-contacts}
+		[exec] (Dc) {xterm -e dc}
+		[exec] (Demo Screen Hacks) {xscreensaver-command -demo}
+		[exec] (Desktop Search) {tracker-needle}
+		[exec] (Disable XScreenSaver) {xscreensaver-command -exit}
+		[exec] (Documents) {gnome-documents}
+		[exec] (Enable XScreenSaver) {xscreensaver}
+		[exec] (Engrampa Archive Manager) {engrampa}
+		[exec] (File Manager) {exo-open --launch FileManager}
+		[exec] (Files) {nemo}
+		[exec] (Font Viewer) {gnome-font-viewer}
+		[exec] (Gnote) {gnote}
+		[exec] (Help) {yelp}
+		[exec] (Info) {xterm -e info}
+		[exec] (Lock Screen [XScreenSaver]) {xscreensaver-command -lock}
+		[exec] (Maps) {gnome-maps}
+		[exec] (Notes) {bijiben}
+		[exec] (Photos) {gnome-photos}
+		[exec] (Reinitialize XScreenSaver) {xscreensaver-command -restart}
+		[exec] (Run Program...) {xfce4-appfinder --collapsed}
+		[exec] (Screen Reader) {orca --replace}
+		[exec] (ScreenSaver Preferences) {xscreensaver-command -prefs}
+		[exec] (Screenshot) {gnome-screenshot --interactive}
+		[exec] (Search for Files...) {mate-search-tool}
+		[exec] (Take Screenshot) {mate-screenshot --interactive}
+		[exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
+		[exec] (TeXdoctk) {texdoctk}
+		[exec] (Time Tracker) {hamster-time-tracker}
+		[exec] (Time Tracking Overview) {hamster-time-tracker overview}
+		[exec] (Xcalc) {xcalc}
+		[exec] (Xman) {xman}
+	[end]
+	[separator]
+	[submenu] (FluxBox)
+		[workspaces] (Workspaces)
+		[submenu] (Styles)
+			[stylesdir] (/usr/share/fluxbox/styles)
+			[stylesdir] (~/.fluxbox/styles)
+		[end]
+		[config] (Configure)
+		[reconfig] (Reconfig)
+		[restart] (Restart)
+		[separator]
+		[exit] (Exit)
+	[end]
+[end]
