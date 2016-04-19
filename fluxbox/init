@@ -67,7 +67,7 @@ session.styleOverlay:	~/.fluxbox/overlay
 session.keyFile:	~/.fluxbox/keys
 session.tabPadding:	0
 session.colorsPerChannel:	4
-session.styleFile:	/usr/share/fluxbox/styles/Squared_blue
+session.styleFile:	~/.fluxbox/styles/squared_blue
 session.autoRaiseDelay:	250
 session.cacheLife:	5
 session.appsFile:	~/.fluxbox/apps
