@@ -57,7 +57,7 @@ TOTAL: ${cpu cpu0}% ${cpubar cpu0}
 ${cpugraph cpu1 20,130 FFFF00 FF0000} $alignr ${cpugraph cpu2 20,130 FFFF00 FF0000}
 CPU0: ${cpu cpu1}% ${cpubar cpu1 7,70} $alignr CPU1: ${cpu cpu2}% ${cpubar cpu2 7,70}
 ${cpugraph cpu3 20,130 FFFF00 FF0000} $alignr ${cpugraph cpu4 20,130 FFFF00 FF0000}
-CPU0: ${cpu cpu3}% ${cpubar cpu3 7,70} $alignr CPU1: ${cpu cpu4}% ${cpubar cpu4 7,70}
+CPU2: ${cpu cpu3}% ${cpubar cpu3 7,70} $alignr CPU3: ${cpu cpu4}% ${cpubar cpu4 7,70}
 
 ${font lato:bold:size=10}MEMORY ${hr 2}
 ${font lato:normal:size=10}RAM $alignc $mem / $memmax $alignr $memperc%

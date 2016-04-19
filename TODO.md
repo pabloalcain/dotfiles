@@ -1,2 +1,3 @@
 - Automount pendrives
 - GUI File Browser (thunar?)
+- Put all the cpu's in conky
