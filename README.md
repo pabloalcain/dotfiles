@@ -24,6 +24,7 @@ keep tracks on the needed packages:
 - File Browser: Midnight Commander (mc)
 - Typesetting: LaTeX (latex)
 - TMux (tmux)
+- Unicode rxvt (rxvt-unicode)
 
 ## Internet
 - Iceweasel (iceweasel)

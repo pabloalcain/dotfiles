@@ -8,3 +8,5 @@
     ~/.conkyrc: conkyrc
     ~/.gitignore_global: gitignore_global
     ~/.gitconfig: gitconfig
+    ~/.Xresources: Xresources
+    ~/.Xresources.d: Xresources.d

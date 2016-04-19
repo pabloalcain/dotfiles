@@ -1,0 +1,40 @@
+!URxvt colors White-on-black copy from gnome
+URxvt*background: #000000
+URxvt*foreground: #FFFFFF
+! Default
+! 0: black
+URxvt*color0:  #000000
+URxvt*color8:  #555555
+! 1: red
+URxvt*color1:  #AA0000
+URxvt*color9:  #FF5555
+! 2: green
+URxvt*color2:  #00AA00
+URxvt*color10: #55FF55
+! 3: yellow
+URxvt*color3:  #AA5500
+URxvt*color11: #FFFF55
+! 4: blue
+URxvt*color4:  #0000AA
+URxvt*color12: #5555FF
+! 5: magenta
+URxvt*color5:  #AA00AA
+URxvt*color13: #FF55FF
+! 6: cyan
+URxvt*color6:  #00AAAA
+URxvt*color14: #55FFFF
+! 7: white
+URxvt*color7:  #AAAAAA
+URxvt*color15: #FFFFFF
+
+URxvt*geometry:        80x24
+URxvt*font:            xft:mono:light:pixelsize=12
+URxvt.letterSpace:     -1
+URxvt*urlLauncher:     firefox  
+URxvt*scrollBar:       false
+URxvt*scrollBar_right: true
+URxvt*scrollColor:     #000000
+
+! set pager to be main screen when scrolling
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
