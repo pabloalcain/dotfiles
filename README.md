@@ -19,10 +19,15 @@ keep tracks on the needed packages:
 ##Packages meant to be installed in the distro
 
 ### General purpose
-- Fluxbox (fluxbox)
+- Desktop: Fluxbox (fluxbox feh)
+- Widget: Conky (conky)
+- File Browser: Midnight Commander (mc)
+- Typesetting: LaTeX (latex)
+- TMux (tmux)
+
+## Internet
 - Iceweasel (iceweasel)
-- Conky (conky)
-- Midnight Commander (mc)
+- HexChat IRC Client (hexchat)
 
 ### Text Editors
 - Emacs (emacs)
@@ -33,3 +38,9 @@ keep tracks on the needed packages:
 - SciPy (python-scipy)
 - MatPlotLib (python-matplotlib)
 - OpenMPI (openmpi-bin openmpi-common libopenmpi-dev)
+
+## Development
+- gcc (gcc gfortran)
+- IPython (ipython)
+- git (git)
+
