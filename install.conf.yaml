@@ -10,3 +10,4 @@
     ~/.gitconfig: gitconfig
     ~/.Xresources: Xresources
     ~/.Xresources.d: Xresources.d
+    ~/.emacs: emacs
