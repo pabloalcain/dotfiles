@@ -19,6 +19,7 @@ keep tracks on the needed packages:
 ##Packages meant to be installed in the distro
 
 ### General purpose
+- Display Manager: LightDM (lightdm lightdm-gtk-greeter)
 - Desktop: Fluxbox (fluxbox feh)
 - Widget: Conky (conky)
 - File Browser: Midnight Commander (mc)
