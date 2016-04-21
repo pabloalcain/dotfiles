@@ -54,6 +54,7 @@ Most packages are downloaded through MELPA
 ###Appearance
 - [Moe theme](https://github.com/kuanyui/moe-theme.el) (moe-theme)
 - [Powerline](https://github.com/milkypostman/powerline) (powerline)
+- [Org mode](https://github.com/sabof/org-bullets) (org-bullets org-autolist)
 
 ###Programming
 - [Flycheck](https://github.com/flycheck/flycheck) (flycheck)
