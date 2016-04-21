@@ -44,5 +44,19 @@ keep tracks on the needed packages:
 ## Development
 - gcc (gcc gfortran)
 - IPython (ipython)
+- pylint (pylint)
 - git (git)
 
+##Emacs packages
+
+Most packages are downloaded through MELPA
+
+###Appearance
+- [Moe theme](https://github.com/kuanyui/moe-theme.el) (moe-theme)
+- [Powerline](https://github.com/milkypostman/powerline) (powerline)
+
+###Programming
+- [Flycheck](https://github.com/flycheck/flycheck) (flycheck)
+- [Jedi](http://tkf.github.io/emacs-jedi/latest/) (jedi)
+- [Markdown](https://github.com/auto-complete/auto-complete) (markdown-mode)
+- [AUCTeX](https://www.gnu.org/software/auctex/) (auctex)
