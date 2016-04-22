@@ -19,7 +19,8 @@
 (setq-default c-basic-offset 2)
 (setq-default python-indent-offset 2)
 
-
+;; auto-fill
+(add-hook 'text-mode-hook #'auto-fill-mode t)
 
 ;; ipython as interpreter
 (when (executable-find "ipython")
@@ -32,6 +33,14 @@
 (require 'moe-theme)
 (moe-dark)
 (powerline-moe-theme)
+
+;; fill column indicator
+(require 'fill-column-indicator)
+(add-hook 'python-mode-hook #'fci-mode t)
+
+;; whitespaces
+(require 'whitespace)
+(add-hook 'after-init-hook #'global-whitespace-cleanup-mode)
 
 ;; flycheck
 (require 'flycheck)

@@ -57,7 +57,12 @@ Most packages are downloaded through MELPA
 - [Org mode](https://github.com/sabof/org-bullets) (org-bullets org-autolist)
 
 ###Programming
+- [Whitespace Cleanup](https://github.com/purcell/whitespace-cleanup-mode) (whitespace-cleanup-mode)
+- [Fill Column Indicator](https://github.com/alpaker/Fill-Column-Indicator) (fill-column-indicator)
 - [Flycheck](https://github.com/flycheck/flycheck) (flycheck)
 - [Jedi](http://tkf.github.io/emacs-jedi/latest/) (jedi)
 - [Markdown](https://github.com/auto-complete/auto-complete) (markdown-mode)
 - [AUCTeX](https://www.gnu.org/software/auctex/) (auctex)
+
+##Emacs-wise
+- [Emacs Startup Profiler](https://github.com/jschaf/esup) (esup)
