@@ -11,3 +11,4 @@
     ~/.Xresources: Xresources
     ~/.Xresources.d: Xresources.d
     ~/.emacs: emacs
+    ~/.pylintrc: pylintrc

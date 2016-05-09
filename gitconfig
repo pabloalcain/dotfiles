@@ -3,3 +3,5 @@
 	email = pabloalcain@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
+[push]
+	default = simple
