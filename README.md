@@ -46,6 +46,7 @@ keep tracks on the needed packages:
 - IPython (ipython)
 - pylint (pylint)
 - git (git)
+- nosetests (python-nose python-coverage python-rednose)
 
 ##Emacs packages
 
