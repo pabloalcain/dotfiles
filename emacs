@@ -1,9 +1,19 @@
 (require 'package)
+(setq package-list '(moe-theme powerline org-bullets org-autolist
+                     whitespace-cleanup-mode fill-column-indicator 
+                     flycheck jedi markdown-mode auctex esup))
+
 (add-to-list 'package-archives '("elpa" . "https://melpa.org/packages/"))
 (when (< emacs-major-version 24)
   (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/")))
 (package-initialize)
 
+(unless package-archive-contents
+  (package-refresh-contents))
+
+(dolist (package package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
 ;; shift+arrow to cycle through windows
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
